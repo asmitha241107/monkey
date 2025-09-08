@@ -1,0 +1,125 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*flex content*/
+.container{
+    display: flex;
+    gap:20px;
+    padding: 30px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    flex: 1;
+    min-width: 250;
+    background:white;
+    padding:250px;
+    border-radius: 12px;
+    box-shadow:0px 4px 10px rgba(0,0,0,0,1);
+    transition:transform 0.3s;
+}
+.card hover{
+    transform: translate(-8px);
+}
+/*testinomials*/
+.testnomials{
+    background:#ecf0f1;
+    padding:40px 20px;
+    text-align:center;
+}
+.testnomial-cantainer{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+.testnomial{
+    background: white;
+    padding:20px;
+    border-radius:10px;
+    width:280px;
+    box-shadow:0 3px 8px rgba(0,0,0,1);
+    font-style:italic;
+}
+/*call to action*/
+.cta{
+    background:#f39c12;
+    color:white;
+    text-align:center;
+    font-size:1rem;
+    border-radius:8px;
+    cursor:pointer;
+    margin-top:15px;
+}
+.cta button:hover{
+    background:darkblue;
+}
+    /*gallery*/
+    .gallery{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        padding: 20px;
+
+}
+.gallery figure{
+    text-align:center;
+}
+.gallery img{
+    width: 300px;
+    border-radius: 10px;
+    transition:transform 0.3;
+
+}
+.gallery img :hover{
+    transform: scale(1.05)
+}
+figcaption{
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: blueviolet;
+}
+/*Travel Quote*/
+.Quote{
+    background: blue;
+    color: white;
+    text-align: centre;
+    padding: 40px 20psx;
+    font-style:italic;
+}
